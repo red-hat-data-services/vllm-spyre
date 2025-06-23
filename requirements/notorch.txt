@@ -1,0 +1,6 @@
+torch; sys_platform == 'never'
+torchaudio; sys_platform == 'never'
+torchvision; sys_platform == 'never'
+triton>=3.0,<3.2; sys_platform != 'darwin'
+notebook; sys_platform == 'never'
+tensorboard; sys_platform == 'never'
